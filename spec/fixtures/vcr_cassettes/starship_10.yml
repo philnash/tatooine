@@ -1,0 +1,51 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://swapi.co/api/starships/10/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Tatooine Ruby Gem - 0.0.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 17 Feb 2015 00:48:45 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d140c16bd1ac94b9b44e6f6c8000a64071424134124; expires=Wed, 17-Feb-16
+        00:48:44 GMT; path=/; domain=.swapi.co; HttpOnly
+      Allow:
+      - GET, HEAD, OPTIONS
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept, Cookie
+      Via:
+      - 1.1 vegur
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 1b9dfb2799210cf5-LHR
+    body:
+      encoding: UTF-8
+      string: '{"name":"Millennium Falcon","model":"YT-1300 light freighter","manufacturer":"Corellian
+        Engineering Corporation","cost_in_credits":"100000","length":"34.37","max_atmosphering_speed":"1050","crew":"4","passengers":"6","cargo_capacity":"100000","consumables":"2
+        months","hyperdrive_rating":"0.5","MGLT":"75","starship_class":"Light freighter","pilots":["http://swapi.co/api/people/13/","http://swapi.co/api/people/14/","http://swapi.co/api/people/25/","http://swapi.co/api/people/31/"],"films":["http://swapi.co/api/films/1/","http://swapi.co/api/films/2/","http://swapi.co/api/films/3/"],"created":"2014-12-10T16:59:45.094000Z","edited":"2014-12-22T17:35:44.464156Z","url":"http://swapi.co/api/starships/10/"}'
+    http_version: 
+  recorded_at: Tue, 17 Feb 2015 00:48:46 GMT
+recorded_with: VCR 2.9.3

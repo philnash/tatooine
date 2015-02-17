@@ -1,0 +1,59 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://swapi.co/api/species/?page=2
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Tatooine Ruby Gem - 0.0.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 17 Feb 2015 00:23:15 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d3ed211ecf86fda637939c3c923fd2fae1424132592; expires=Wed, 17-Feb-16
+        00:23:12 GMT; path=/; domain=.swapi.co; HttpOnly
+      Allow:
+      - GET, HEAD, OPTIONS
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept, Cookie
+      Via:
+      - 1.1 vegur
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 1b9dd5c175410300-LHR
+    body:
+      encoding: UTF-8
+      string: '{"count":37,"next":"http://swapi.co/api/species/?page=3","previous":"http://swapi.co/api/species/?page=1","results":[{"name":"Toydarian","classification":"mammal","designation":"sentient","average_height":"120","skin_colors":"blue,
+        green, grey","hair_colors":"none","eye_colors":"yellow","average_lifespan":"91","homeworld":"http://swapi.co/api/planets/34/","language":"Toydarian","people":["http://swapi.co/api/people/40/"],"films":["http://swapi.co/api/films/4/","http://swapi.co/api/films/5/"],"created":"2014-12-19T17:48:56.893000Z","edited":"2014-12-20T21:36:42.165000Z","url":"http://swapi.co/api/species/13/"},{"name":"Dug","classification":"mammal","designation":"sentient","average_height":"100","skin_colors":"brown,
+        purple, grey, red","hair_colors":"none","eye_colors":"yellow, blue","average_lifespan":"unknown","homeworld":"http://swapi.co/api/planets/35/","language":"Dugese","people":["http://swapi.co/api/people/41/"],"films":["http://swapi.co/api/films/4/"],"created":"2014-12-19T17:53:11.214000Z","edited":"2014-12-20T21:36:42.167000Z","url":"http://swapi.co/api/species/14/"},{"name":"Twi''lek","classification":"mammals","designation":"sentient","average_height":"200","skin_colors":"orange,
+        yellow, blue, green, pink, purple, tan","hair_colors":"none","eye_colors":"blue,
+        brown, orange, pink","average_lifespan":"unknown","homeworld":"http://swapi.co/api/planets/37/","language":"Twi''leki","people":["http://swapi.co/api/people/45/","http://swapi.co/api/people/46/"],"films":["http://swapi.co/api/films/3/","http://swapi.co/api/films/4/","http://swapi.co/api/films/5/","http://swapi.co/api/films/6/"],"created":"2014-12-20T09:48:02.406000Z","edited":"2014-12-20T21:36:42.169000Z","url":"http://swapi.co/api/species/15/"},{"name":"Aleena","classification":"reptile","designation":"sentient","average_height":"80","skin_colors":"blue,
+        gray","hair_colors":"none","eye_colors":"unknown","average_lifespan":"79","homeworld":"http://swapi.co/api/planets/38/","language":"Aleena","people":["http://swapi.co/api/people/47/"],"films":["http://swapi.co/api/films/4/"],"created":"2014-12-20T09:53:16.481000Z","edited":"2014-12-20T21:36:42.171000Z","url":"http://swapi.co/api/species/16/"},{"name":"Vulptereen","classification":"unknown","designation":"sentient","average_height":"100","skin_colors":"grey","hair_colors":"none","eye_colors":"yellow","average_lifespan":"unknown","homeworld":"http://swapi.co/api/planets/39/","language":"vulpterish","people":["http://swapi.co/api/people/48/"],"films":["http://swapi.co/api/films/4/"],"created":"2014-12-20T09:57:33.128000Z","edited":"2014-12-20T21:36:42.173000Z","url":"http://swapi.co/api/species/17/"},{"name":"Xexto","classification":"unknown","designation":"sentient","average_height":"125","skin_colors":"grey,
+        yellow, purple","hair_colors":"none","eye_colors":"black","average_lifespan":"unknown","homeworld":"http://swapi.co/api/planets/40/","language":"Xextese","people":["http://swapi.co/api/people/49/"],"films":["http://swapi.co/api/films/4/"],"created":"2014-12-20T10:02:13.915000Z","edited":"2014-12-20T21:36:42.175000Z","url":"http://swapi.co/api/species/18/"},{"name":"Toong","classification":"unknown","designation":"sentient","average_height":"200","skin_colors":"grey,
+        green, yellow","hair_colors":"none","eye_colors":"orange","average_lifespan":"unknown","homeworld":"http://swapi.co/api/planets/41/","language":"Tundan","people":["http://swapi.co/api/people/50/"],"films":["http://swapi.co/api/films/4/","http://swapi.co/api/films/6/"],"created":"2014-12-20T10:08:36.795000Z","edited":"2014-12-20T21:36:42.177000Z","url":"http://swapi.co/api/species/19/"},{"name":"Cerean","classification":"mammal","designation":"sentient","average_height":"200","skin_colors":"pale
+        pink","hair_colors":"red, blond, black, white","eye_colors":"hazel","average_lifespan":"unknown","homeworld":"http://swapi.co/api/planets/43/","language":"Cerean","people":["http://swapi.co/api/people/52/"],"films":["http://swapi.co/api/films/4/","http://swapi.co/api/films/6/"],"created":"2014-12-20T10:15:33.765000Z","edited":"2014-12-20T21:36:42.179000Z","url":"http://swapi.co/api/species/20/"},{"name":"Nautolan","classification":"amphibian","designation":"sentient","average_height":"180","skin_colors":"green,
+        blue, brown, red","hair_colors":"none","eye_colors":"black","average_lifespan":"70","homeworld":"http://swapi.co/api/planets/44/","language":"Nautila","people":["http://swapi.co/api/people/53/"],"films":["http://swapi.co/api/films/4/"],"created":"2014-12-20T10:18:58.610000Z","edited":"2014-12-20T21:36:42.181000Z","url":"http://swapi.co/api/species/21/"},{"name":"Zabrak","classification":"mammal","designation":"sentient","average_height":"180","skin_colors":"pale,
+        brown, red, orange, yellow","hair_colors":"black","eye_colors":"brown, orange","average_lifespan":"unknown","homeworld":"http://swapi.co/api/planets/45/","language":"Zabraki","people":["http://swapi.co/api/people/44/","http://swapi.co/api/people/54/"],"films":["http://swapi.co/api/films/4/"],"created":"2014-12-20T10:26:59.894000Z","edited":"2014-12-20T21:36:42.183000Z","url":"http://swapi.co/api/species/22/"}]}'
+    http_version: 
+  recorded_at: Tue, 17 Feb 2015 00:23:16 GMT
+recorded_with: VCR 2.9.3

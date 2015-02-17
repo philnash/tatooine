@@ -1,0 +1,70 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://swapi.co/api/vehicles/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Tatooine Ruby Gem - 0.0.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 17 Feb 2015 00:59:41 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d7c00d4a0d23d0ec99130136d04c1a1f61424134779; expires=Wed, 17-Feb-16
+        00:59:39 GMT; path=/; domain=.swapi.co; HttpOnly
+      Allow:
+      - GET, HEAD, OPTIONS
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept, Cookie
+      Via:
+      - 1.1 vegur
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 1b9e0b213fe30b7b-LHR
+    body:
+      encoding: UTF-8
+      string: '{"count":39,"next":"http://swapi.co/api/vehicles/?page=2","previous":null,"results":[{"name":"Sand
+        Crawler","model":"Digger Crawler","manufacturer":"Corellia Mining Corporation","cost_in_credits":"150000","length":"36.8","max_atmosphering_speed":"30","crew":"46","passengers":"30","cargo_capacity":"50000","consumables":"2
+        months","vehicle_class":"wheeled","pilots":[],"films":["http://swapi.co/api/films/1/","http://swapi.co/api/films/5/"],"created":"2014-12-10T15:36:25.724000Z","edited":"2014-12-22T18:21:15.523587Z","url":"http://swapi.co/api/vehicles/4/"},{"name":"T-16
+        skyhopper","model":"T-16 skyhopper","manufacturer":"Incom Corporation","cost_in_credits":"14500","length":"10.4","max_atmosphering_speed":"1200","crew":"1","passengers":"1","cargo_capacity":"50","consumables":"0","vehicle_class":"repulsorcraft","pilots":[],"films":["http://swapi.co/api/films/1/"],"created":"2014-12-10T16:01:52.434000Z","edited":"2014-12-22T18:21:15.552614Z","url":"http://swapi.co/api/vehicles/6/"},{"name":"X-34
+        landspeeder","model":"X-34 landspeeder","manufacturer":"SoroSuub Corporation","cost_in_credits":"10550","length":"3.4","max_atmosphering_speed":"250","crew":"1","passengers":"1","cargo_capacity":"5","consumables":"unknown","vehicle_class":"repulsorcraft","pilots":[],"films":["http://swapi.co/api/films/1/"],"created":"2014-12-10T16:13:52.586000Z","edited":"2014-12-22T18:21:15.583700Z","url":"http://swapi.co/api/vehicles/7/"},{"name":"TIE/LN
+        starfighter","model":"Twin Ion Engine/Ln Starfighter","manufacturer":"Sienar
+        Fleet Systems","cost_in_credits":"unknown","length":"6.4","max_atmosphering_speed":"1200","crew":"1","passengers":"0","cargo_capacity":"65","consumables":"2
+        days","vehicle_class":"starfighter","pilots":[],"films":["http://swapi.co/api/films/1/","http://swapi.co/api/films/2/","http://swapi.co/api/films/3/"],"created":"2014-12-10T16:33:52.860000Z","edited":"2014-12-22T18:21:15.606149Z","url":"http://swapi.co/api/vehicles/8/"},{"name":"Snowspeeder","model":"t-47
+        airspeeder","manufacturer":"Incom corporation","cost_in_credits":"unknown","length":"4.5","max_atmosphering_speed":"650","crew":"2","passengers":"0","cargo_capacity":"10","consumables":"none","vehicle_class":"airspeeder","pilots":["http://swapi.co/api/people/1/","http://swapi.co/api/people/18/"],"films":["http://swapi.co/api/films/2/"],"created":"2014-12-15T12:22:12Z","edited":"2014-12-22T18:21:15.623033Z","url":"http://swapi.co/api/vehicles/14/"},{"name":"TIE
+        bomber","model":"TIE/sa bomber","manufacturer":"Sienar Fleet Systems","cost_in_credits":"unknown","length":"7.8","max_atmosphering_speed":"850","crew":"1","passengers":"0","cargo_capacity":"none","consumables":"2
+        days","vehicle_class":"space/planetary bomber","pilots":[],"films":["http://swapi.co/api/films/2/","http://swapi.co/api/films/3/"],"created":"2014-12-15T12:33:15.838000Z","edited":"2014-12-22T18:21:15.667730Z","url":"http://swapi.co/api/vehicles/16/"},{"name":"AT-AT","model":"All
+        Terrain Armored Transport","manufacturer":"Kuat Drive Yards, Imperial Department
+        of Military Research","cost_in_credits":"unknown","length":"20","max_atmosphering_speed":"60","crew":"5","passengers":"40","cargo_capacity":"1000","consumables":"unknown","vehicle_class":"assault
+        walker","pilots":[],"films":["http://swapi.co/api/films/2/","http://swapi.co/api/films/3/"],"created":"2014-12-15T12:38:25.937000Z","edited":"2014-12-22T18:21:15.714673Z","url":"http://swapi.co/api/vehicles/18/"},{"name":"AT-ST","model":"All
+        Terrain Scout Transport","manufacturer":"Kuat Drive Yards, Imperial Department
+        of Military Research","cost_in_credits":"unknown","length":"2","max_atmosphering_speed":"90","crew":"2","passengers":"0","cargo_capacity":"200","consumables":"none","vehicle_class":"walker","pilots":["http://swapi.co/api/people/13/"],"films":["http://swapi.co/api/films/2/","http://swapi.co/api/films/3/"],"created":"2014-12-15T12:46:42.384000Z","edited":"2014-12-22T18:21:15.761584Z","url":"http://swapi.co/api/vehicles/19/"},{"name":"Storm
+        IV Twin-Pod cloud car","model":"Storm IV Twin-Pod","manufacturer":"Bespin
+        Motors","cost_in_credits":"75000","length":"7","max_atmosphering_speed":"1500","crew":"2","passengers":"0","cargo_capacity":"10","consumables":"1
+        day","vehicle_class":"repulsorcraft","pilots":[],"films":["http://swapi.co/api/films/2/"],"created":"2014-12-15T12:58:50.530000Z","edited":"2014-12-22T18:21:15.783232Z","url":"http://swapi.co/api/vehicles/20/"},{"name":"Sail
+        barge","model":"Modified Luxury Sail Barge","manufacturer":"Ubrikkian Industries
+        Custom Vehicle Division","cost_in_credits":"285000","length":"30","max_atmosphering_speed":"100","crew":"26","passengers":"500","cargo_capacity":"2000000","consumables":"Live
+        food tanks","vehicle_class":"sail barge","pilots":[],"films":["http://swapi.co/api/films/3/"],"created":"2014-12-18T10:44:14.217000Z","edited":"2014-12-22T18:21:15.807906Z","url":"http://swapi.co/api/vehicles/24/"}]}'
+    http_version: 
+  recorded_at: Tue, 17 Feb 2015 00:59:43 GMT
+recorded_with: VCR 2.9.3

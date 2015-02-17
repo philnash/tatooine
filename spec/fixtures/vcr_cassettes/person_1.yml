@@ -1,0 +1,49 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://swapi.co/api/people/1/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Tatooine Ruby Gem - 0.0.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 16 Feb 2015 23:37:38 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d915f7ef586e5ddd76271e9d1d6c9d15c1424129858; expires=Tue, 16-Feb-16
+        23:37:38 GMT; path=/; domain=.swapi.co; HttpOnly
+      Allow:
+      - GET, HEAD, OPTIONS
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept, Cookie
+      Via:
+      - 1.1 vegur
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 1b9d92ffc7ac0cf5-LHR
+    body:
+      encoding: UTF-8
+      string: '{"name":"Luke Skywalker","height":"172","mass":"77","hair_color":"blond","skin_color":"fair","eye_color":"blue","birth_year":"19BBY","gender":"male","homeworld":"http://swapi.co/api/planets/1/","films":["http://swapi.co/api/films/1/","http://swapi.co/api/films/2/","http://swapi.co/api/films/3/","http://swapi.co/api/films/6/"],"species":["http://swapi.co/api/species/1/"],"vehicles":["http://swapi.co/api/vehicles/14/","http://swapi.co/api/vehicles/30/"],"starships":["http://swapi.co/api/starships/12/","http://swapi.co/api/starships/22/"],"created":"2014-12-09T13:50:51.644000Z","edited":"2014-12-20T21:17:56.891000Z","url":"http://swapi.co/api/people/1/"}'
+    http_version: 
+  recorded_at: Mon, 16 Feb 2015 23:37:40 GMT
+recorded_with: VCR 2.9.3

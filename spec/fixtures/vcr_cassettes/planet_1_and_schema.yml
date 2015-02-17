@@ -1,0 +1,50 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://swapi.co/api/planets/1/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Tatooine Ruby Gem - 0.0.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 17 Feb 2015 00:24:04 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d025ef95d21aa6c8ffdfd7a2fe5b9c8f61424132644; expires=Wed, 17-Feb-16
+        00:24:04 GMT; path=/; domain=.swapi.co; HttpOnly
+      Allow:
+      - GET, HEAD, OPTIONS
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept, Cookie
+      Via:
+      - 1.1 vegur
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 1b9dd70149eb06ca-LHR
+    body:
+      encoding: UTF-8
+      string: '{"name":"Tatooine","rotation_period":"23","orbital_period":"304","diameter":"10465","climate":"arid","gravity":"1
+        standard","terrain":"desert","surface_water":"1","population":"200000","residents":["http://swapi.co/api/people/1/","http://swapi.co/api/people/2/","http://swapi.co/api/people/4/","http://swapi.co/api/people/6/","http://swapi.co/api/people/7/","http://swapi.co/api/people/8/","http://swapi.co/api/people/9/","http://swapi.co/api/people/11/","http://swapi.co/api/people/43/","http://swapi.co/api/people/62/"],"films":["http://swapi.co/api/films/1/","http://swapi.co/api/films/3/","http://swapi.co/api/films/4/","http://swapi.co/api/films/5/","http://swapi.co/api/films/6/"],"created":"2014-12-09T13:50:49.641000Z","edited":"2014-12-21T20:48:04.175778Z","url":"http://swapi.co/api/planets/1/"}'
+    http_version: 
+  recorded_at: Tue, 17 Feb 2015 00:24:05 GMT
+recorded_with: VCR 2.9.3
