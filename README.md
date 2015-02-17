@@ -2,6 +2,8 @@
 
 A Ruby interface to [SWAPI](http://swapi.co/) (the Star Wars API).
 
+[![Build Status](https://travis-ci.org/philnash/tatooine.svg)](https://travis-ci.org/philnash/tatooine)
+
 ## Installation
 
 Add this line to your application's Gemfile:
