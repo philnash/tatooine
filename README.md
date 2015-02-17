@@ -21,7 +21,7 @@ Or install it yourself as:
 There are 6 resources available: Planets, Starships, Vehicles, People, Films and Species. They all have a similar interface.
 
 ```ruby
-planets = Tatooine::Planet.all
+planets = Tatooine::Planet.list
 Tatooine::Planet.count
 # => 60
 planets.length
@@ -38,6 +38,10 @@ tatooine.residents
 tatooine.residents.first.name
 # => "Luke Skywalker" # Will make the request to get the resource
 ```
+
+## Schema
+
+In SWAPI the objects are described by their [schemas](http://swapi.co/documentation#schema). Check the [SWAPI documentation](http://swapi.co/documentation) to find out more about each of the objects.
 
 ## Contributing
 
