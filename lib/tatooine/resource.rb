@@ -81,10 +81,10 @@ module Tatooine
 
       def connection
         options = {
-          headers: {
+          :headers => {
             "User-Agent" => "Tatooine Ruby Gem - #{Tatooine::VERSION}"
           },
-          url: "#{Tatooine::API_BASE}#{@resource_path}/"
+          :url => "#{Tatooine::API_BASE}#{@resource_path}/"
         }
         @connection ||= Faraday.new(options) do |faraday|
           faraday.response :raise_http_error
