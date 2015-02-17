@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Phil Nash"]
   spec.email         = ["philnash@gmail.com"]
   spec.summary       = %q{A Ruby interface to SWAPI (the Star Wars API).}
-  spec.description   = %q{A Ruby interface to SWAPI (the Star Wars API).}
+  spec.description   = %q{A Ruby interface to SWAPI (the Star Wars API). http://swapi.co/}
   spec.homepage      = "https://github.com/philnash/tatooine"
   spec.license       = "MIT"
 
