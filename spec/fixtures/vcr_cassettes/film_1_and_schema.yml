@@ -2,13 +2,13 @@
 http_interactions:
 - request:
     method: get
-    uri: http://swapi.co/api/films/1/
+    uri: https://swapi.co/api/films/1/
     body:
       encoding: US-ASCII
       string: ''
     headers:
       User-Agent:
-      - Tatooine Ruby Gem - 0.0.1
+      - Tatooine Ruby Gem - 1.0.1
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 17 Feb 2015 00:02:26 GMT
+      - Tue, 28 Aug 2018 21:41:35 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -27,8 +27,10 @@ http_interactions:
       Connection:
       - keep-alive
       Set-Cookie:
-      - __cfduid=db959de28c2a7700e78f2c92a9af54efe1424131345; expires=Wed, 17-Feb-16
-        00:02:25 GMT; path=/; domain=.swapi.co; HttpOnly
+      - __cfduid=d01c87a31db82fb1815892593f32d95611535492494; expires=Wed, 28-Aug-19
+        21:41:34 GMT; path=/; domain=.swapi.co; HttpOnly; Secure
+      Etag:
+      - W/"efcda1cd8821a886c81de0c6de9dd6f1"
       Allow:
       - GET, HEAD, OPTIONS
       X-Frame-Options:
@@ -37,12 +39,14 @@ http_interactions:
       - Accept, Cookie
       Via:
       - 1.1 vegur
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       Server:
-      - cloudflare-nginx
+      - cloudflare
       Cf-Ray:
-      - 1b9db74c7fb306d0-LHR
+      - 4519f15d487f407c-HAM
     body:
-      encoding: UTF-8
+      encoding: ASCII-8BIT
       string: '{"title":"A New Hope","episode_id":4,"opening_crawl":"It is a period
         of civil war.\r\nRebel spaceships, striking\r\nfrom a hidden base, have won\r\ntheir
         first victory against\r\nthe evil Galactic Empire.\r\n\r\nDuring the battle,
@@ -51,7 +55,7 @@ http_interactions:
         destroy an entire planet.\r\n\r\nPursued by the Empire''s\r\nsinister agents,
         Princess\r\nLeia races home aboard her\r\nstarship, custodian of the\r\nstolen
         plans that can save her\r\npeople and restore\r\nfreedom to the galaxy....","director":"George
-        Lucas","producer":"Gary Kurtz, Rick McCallum","characters":["http://swapi.co/api/people/1/","http://swapi.co/api/people/2/","http://swapi.co/api/people/3/","http://swapi.co/api/people/4/","http://swapi.co/api/people/5/","http://swapi.co/api/people/6/","http://swapi.co/api/people/7/","http://swapi.co/api/people/8/","http://swapi.co/api/people/9/","http://swapi.co/api/people/10/","http://swapi.co/api/people/12/","http://swapi.co/api/people/13/","http://swapi.co/api/people/14/","http://swapi.co/api/people/15/","http://swapi.co/api/people/16/","http://swapi.co/api/people/18/","http://swapi.co/api/people/19/","http://swapi.co/api/people/81/"],"planets":["http://swapi.co/api/planets/2/","http://swapi.co/api/planets/3/","http://swapi.co/api/planets/1/"],"starships":["http://swapi.co/api/starships/2/","http://swapi.co/api/starships/3/","http://swapi.co/api/starships/5/","http://swapi.co/api/starships/9/","http://swapi.co/api/starships/10/","http://swapi.co/api/starships/11/","http://swapi.co/api/starships/12/","http://swapi.co/api/starships/13/"],"vehicles":["http://swapi.co/api/vehicles/4/","http://swapi.co/api/vehicles/6/","http://swapi.co/api/vehicles/7/","http://swapi.co/api/vehicles/8/"],"species":["http://swapi.co/api/species/2/","http://swapi.co/api/species/4/","http://swapi.co/api/species/5/","http://swapi.co/api/species/1/","http://swapi.co/api/species/3/"],"created":"2014-12-10T14:23:31.880000Z","edited":"2014-12-20T19:49:45.256000Z","url":"http://swapi.co/api/films/1/"}'
+        Lucas","producer":"Gary Kurtz, Rick McCallum","release_date":"1977-05-25","characters":["https://swapi.co/api/people/1/","https://swapi.co/api/people/2/","https://swapi.co/api/people/3/","https://swapi.co/api/people/4/","https://swapi.co/api/people/5/","https://swapi.co/api/people/6/","https://swapi.co/api/people/7/","https://swapi.co/api/people/8/","https://swapi.co/api/people/9/","https://swapi.co/api/people/10/","https://swapi.co/api/people/12/","https://swapi.co/api/people/13/","https://swapi.co/api/people/14/","https://swapi.co/api/people/15/","https://swapi.co/api/people/16/","https://swapi.co/api/people/18/","https://swapi.co/api/people/19/","https://swapi.co/api/people/81/"],"planets":["https://swapi.co/api/planets/2/","https://swapi.co/api/planets/3/","https://swapi.co/api/planets/1/"],"starships":["https://swapi.co/api/starships/2/","https://swapi.co/api/starships/3/","https://swapi.co/api/starships/5/","https://swapi.co/api/starships/9/","https://swapi.co/api/starships/10/","https://swapi.co/api/starships/11/","https://swapi.co/api/starships/12/","https://swapi.co/api/starships/13/"],"vehicles":["https://swapi.co/api/vehicles/4/","https://swapi.co/api/vehicles/6/","https://swapi.co/api/vehicles/7/","https://swapi.co/api/vehicles/8/"],"species":["https://swapi.co/api/species/5/","https://swapi.co/api/species/3/","https://swapi.co/api/species/2/","https://swapi.co/api/species/1/","https://swapi.co/api/species/4/"],"created":"2014-12-10T14:23:31.880000Z","edited":"2015-04-11T09:46:52.774897Z","url":"https://swapi.co/api/films/1/"}'
     http_version: 
-  recorded_at: Tue, 17 Feb 2015 00:02:27 GMT
+  recorded_at: Tue, 28 Aug 2018 21:41:35 GMT
 recorded_with: VCR 2.9.3

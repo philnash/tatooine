@@ -2,13 +2,13 @@
 http_interactions:
 - request:
     method: get
-    uri: http://swapi.co/api/starships/10/
+    uri: https://swapi.co/api/starships/10/
     body:
       encoding: US-ASCII
       string: ''
     headers:
       User-Agent:
-      - Tatooine Ruby Gem - 0.0.1
+      - Tatooine Ruby Gem - 1.0.1
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 17 Feb 2015 00:48:46 GMT
+      - Tue, 28 Aug 2018 21:41:57 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -27,8 +27,10 @@ http_interactions:
       Connection:
       - keep-alive
       Set-Cookie:
-      - __cfduid=d09e0a26b1ac8e7742ee781e17169d0e11424134125; expires=Wed, 17-Feb-16
-        00:48:45 GMT; path=/; domain=.swapi.co; HttpOnly
+      - __cfduid=dfa00269c45753acf307056dd373ff0391535492516; expires=Wed, 28-Aug-19
+        21:41:56 GMT; path=/; domain=.swapi.co; HttpOnly; Secure
+      Etag:
+      - W/"58b8cde34f6325c36c09f3c65eb8ae57"
       Allow:
       - GET, HEAD, OPTIONS
       X-Frame-Options:
@@ -37,15 +39,17 @@ http_interactions:
       - Accept, Cookie
       Via:
       - 1.1 vegur
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       Server:
-      - cloudflare-nginx
+      - cloudflare
       Cf-Ray:
-      - 1b9dfb2e16121359-LHR
+      - 4519f1e6ee7540a0-HAM
     body:
-      encoding: UTF-8
+      encoding: ASCII-8BIT
       string: '{"name":"Millennium Falcon","model":"YT-1300 light freighter","manufacturer":"Corellian
         Engineering Corporation","cost_in_credits":"100000","length":"34.37","max_atmosphering_speed":"1050","crew":"4","passengers":"6","cargo_capacity":"100000","consumables":"2
-        months","hyperdrive_rating":"0.5","MGLT":"75","starship_class":"Light freighter","pilots":["http://swapi.co/api/people/13/","http://swapi.co/api/people/14/","http://swapi.co/api/people/25/","http://swapi.co/api/people/31/"],"films":["http://swapi.co/api/films/1/","http://swapi.co/api/films/2/","http://swapi.co/api/films/3/"],"created":"2014-12-10T16:59:45.094000Z","edited":"2014-12-22T17:35:44.464156Z","url":"http://swapi.co/api/starships/10/"}'
+        months","hyperdrive_rating":"0.5","MGLT":"75","starship_class":"Light freighter","pilots":["https://swapi.co/api/people/13/","https://swapi.co/api/people/14/","https://swapi.co/api/people/25/","https://swapi.co/api/people/31/"],"films":["https://swapi.co/api/films/2/","https://swapi.co/api/films/7/","https://swapi.co/api/films/3/","https://swapi.co/api/films/1/"],"created":"2014-12-10T16:59:45.094000Z","edited":"2014-12-22T17:35:44.464156Z","url":"https://swapi.co/api/starships/10/"}'
     http_version: 
-  recorded_at: Tue, 17 Feb 2015 00:48:47 GMT
+  recorded_at: Tue, 28 Aug 2018 21:41:57 GMT
 recorded_with: VCR 2.9.3

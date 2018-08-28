@@ -2,13 +2,13 @@
 http_interactions:
 - request:
     method: get
-    uri: http://swapi.co/api/vehicles/14/
+    uri: https://swapi.co/api/vehicles/14/
     body:
       encoding: US-ASCII
       string: ''
     headers:
       User-Agent:
-      - Tatooine Ruby Gem - 0.0.1
+      - Tatooine Ruby Gem - 1.0.1
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 17 Feb 2015 00:59:51 GMT
+      - Tue, 28 Aug 2018 21:42:02 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -27,8 +27,10 @@ http_interactions:
       Connection:
       - keep-alive
       Set-Cookie:
-      - __cfduid=d935c284adebd472a0ec5827262a944fd1424134790; expires=Wed, 17-Feb-16
-        00:59:50 GMT; path=/; domain=.swapi.co; HttpOnly
+      - __cfduid=dde314e6b37ac1ce7ce488a0b5bd9aff11535492521; expires=Wed, 28-Aug-19
+        21:42:01 GMT; path=/; domain=.swapi.co; HttpOnly; Secure
+      Etag:
+      - W/"67f78dfc2d993c4d5ccdd9f840943f89"
       Allow:
       - GET, HEAD, OPTIONS
       X-Frame-Options:
@@ -37,14 +39,16 @@ http_interactions:
       - Accept, Cookie
       Via:
       - 1.1 vegur
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       Server:
-      - cloudflare-nginx
+      - cloudflare
       Cf-Ray:
-      - 1b9e0b6b164606ca-LHR
+      - 4519f2066d0e409a-HAM
     body:
-      encoding: UTF-8
+      encoding: ASCII-8BIT
       string: '{"name":"Snowspeeder","model":"t-47 airspeeder","manufacturer":"Incom
-        corporation","cost_in_credits":"unknown","length":"4.5","max_atmosphering_speed":"650","crew":"2","passengers":"0","cargo_capacity":"10","consumables":"none","vehicle_class":"airspeeder","pilots":["http://swapi.co/api/people/1/","http://swapi.co/api/people/18/"],"films":["http://swapi.co/api/films/2/"],"created":"2014-12-15T12:22:12Z","edited":"2014-12-22T18:21:15.623033Z","url":"http://swapi.co/api/vehicles/14/"}'
+        corporation","cost_in_credits":"unknown","length":"4.5","max_atmosphering_speed":"650","crew":"2","passengers":"0","cargo_capacity":"10","consumables":"none","vehicle_class":"airspeeder","pilots":["https://swapi.co/api/people/1/","https://swapi.co/api/people/18/"],"films":["https://swapi.co/api/films/2/"],"created":"2014-12-15T12:22:12Z","edited":"2014-12-22T18:21:15.623033Z","url":"https://swapi.co/api/vehicles/14/"}'
     http_version: 
-  recorded_at: Tue, 17 Feb 2015 00:59:53 GMT
+  recorded_at: Tue, 28 Aug 2018 21:42:02 GMT
 recorded_with: VCR 2.9.3
