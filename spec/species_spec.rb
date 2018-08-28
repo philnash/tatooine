@@ -80,7 +80,7 @@ describe Tatooine::Species do
     end
 
     # Skipped because the schema doesn't return people right now.
-    xit "gets a list of people" do
+    it "gets a list of people" do
       expect(@species.people).to be_instance_of(Array)
       expect(@species.people.first).to be_instance_of(Tatooine::Person)
     end
