@@ -1,6 +1,8 @@
 require "./spec/spec_helper"
 
 describe Tatooine::Film do
+  EXPECTED_MOVIE_COUNT = 7
+
   describe "#schema" do
     before(:all) do
       VCR.use_cassette("film schema") do
@@ -22,7 +24,7 @@ describe Tatooine::Film do
     end
 
     it "should return the correct count" do
-      expect(@count).to be(6)
+      expect(@count).to be(EXPECTED_MOVIE_COUNT)
     end
   end
 
@@ -35,7 +37,7 @@ describe Tatooine::Film do
 
     it "gets a list of films" do
       expect(@films).to be_instance_of(Array)
-      expect(@films.length).to be(6)
+      expect(@films.length).to be(EXPECTED_MOVIE_COUNT)
       expect(@films.first).to be_instance_of(Tatooine::Film)
     end
   end
