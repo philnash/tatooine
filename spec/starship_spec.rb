@@ -22,7 +22,7 @@ describe Tatooine::Starship do
     end
 
     it "should return the correct count" do
-      expect(@count).to be(36)
+      expect(@count).to be(37)
     end
   end
 

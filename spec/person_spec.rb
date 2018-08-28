@@ -22,7 +22,7 @@ describe Tatooine::Person do
     end
 
     it "should return the correct count" do
-      expect(@count).to be(82)
+      expect(@count).to be(87)
     end
   end
 

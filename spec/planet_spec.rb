@@ -22,7 +22,7 @@ describe Tatooine::Planet do
     end
 
     it "should return the correct count" do
-      expect(@count).to be(60)
+      expect(@count).to be(61)
     end
   end
 
