@@ -63,7 +63,7 @@ describe Tatooine::Starship do
     end
 
     it "gets the url of the starship" do
-      expect(@starship.url).to eq("http://swapi.co/api/starships/10/")
+      expect(@starship.url).to eq("#{Tatooine::API_BASE}starships/10/")
     end
 
     it "gets the attributes of the starship" do

@@ -63,7 +63,7 @@ describe Tatooine::Vehicle do
     end
 
     it "gets the url of the vehicle" do
-      expect(@vehicle.url).to eq("http://swapi.co/api/vehicles/14/")
+      expect(@vehicle.url).to eq("#{Tatooine::API_BASE}vehicles/14/")
     end
 
     it "gets the attributes of the vehicle" do

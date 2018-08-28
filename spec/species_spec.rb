@@ -63,7 +63,7 @@ describe Tatooine::Species do
     end
 
     it "gets the url of the species" do
-      expect(@species.url).to eq("http://swapi.co/api/species/1/")
+      expect(@species.url).to eq("#{Tatooine::API_BASE}species/1/")
     end
 
     it "gets the attributes of the species" do

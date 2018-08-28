@@ -63,7 +63,7 @@ describe Tatooine::Person do
     end
 
     it "gets the url of the person" do
-      expect(@person.url).to eq("http://swapi.co/api/people/1/")
+      expect(@person.url).to eq("#{Tatooine::API_BASE}people/1/")
     end
 
     it "gets the attributes of the person" do

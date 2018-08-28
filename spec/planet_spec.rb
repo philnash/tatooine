@@ -63,7 +63,7 @@ describe Tatooine::Planet do
     end
 
     it "gets the url of the planet" do
-      expect(@planet.url).to eq("http://swapi.co/api/planets/1/")
+      expect(@planet.url).to eq("#{Tatooine::API_BASE}planets/1/")
     end
 
     it "gets the attributes of the planet" do

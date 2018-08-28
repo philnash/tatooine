@@ -50,7 +50,7 @@ describe Tatooine::Film do
     end
 
     it "gets the url of the film" do
-      expect(@film.url).to eq("http://swapi.co/api/films/1/")
+      expect(@film.url).to eq("#{Tatooine::API_BASE}films/1/")
     end
 
     it "gets the attributes of the film" do
