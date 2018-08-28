@@ -13,5 +13,5 @@ require "tatooine/starship"
 require "tatooine/vehicle"
 
 module Tatooine
-  API_BASE = "http://swapi.co/api/"
+  API_BASE = "https://swapi.co/api/"
 end
